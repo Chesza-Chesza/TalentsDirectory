@@ -1,0 +1,22 @@
+
+Instructions:
+1. Find your card in index.html (Ctrl f (your name)). Set your information.
+2. Link it to your github resume page. 
+3. Add your picture to your card and remove the one with your name.
+4. Push it to github and do a fork request.
+
+Optional Asigments
+Lets optimize our website!
+
+1. Implement responsive for the hero section.
+2. Set the correct icons in Carousel Section (use the icons of the technologies we are studying about).
+3. Create a boostrap form and replace the other one.
+4. Create a privacy policy page (link it in the footer section).
+5. Implement a modal with two buttons (Preferencias de cookies, OK). It has to be displayed over the footer section with the next info:
+
+"Privacidad
+
+Utilizamos cookies y tecnologías similares para personalizar el contenido, adaptar y medir los anuncios y ofrecer una mejor experiencia. Al hacer clic en OK o activar una opción en Preferencias de cookies, aceptas esta opción según lo establecido en nuestra Política de cookies."
+
+6. Create a cookies page and link it.
+7. Make an animation with css or js giving some movements to the image in the hero-section. 

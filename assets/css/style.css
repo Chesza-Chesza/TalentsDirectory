@@ -1,0 +1,45 @@
+body {
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ffffff;
+}
+
+nav,
+footer {
+    background-color: #1688c3;
+}
+
+.hero-section {
+    background-color: #87ceeb;
+    margin-top: 0;
+}
+
+.hero {
+    margin: 0 auto;
+}
+
+.tech-carousel {
+    background-color: #b4b8b9;
+}
+
+h4 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #777b7e;
+}
+
+i {
+    color: #8c9194;
+}
+
+.btn {
+    background-color: #1688c3;
+}
+
+.card-body {
+    transform: translate3d(20px, -30px, 0px);
+}
+
+footer p {
+    font-size: 15px;
+}

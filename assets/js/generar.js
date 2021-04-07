@@ -1,5 +1,5 @@
 console.log("GENERANDO...");
-const talentos = [
+const talents = [
   {
     nombre: 'Karl Heitmann',
     profesion: 'Full Stack',
@@ -282,9 +282,12 @@ let galeria = document.getElementById('los-talentos');
 // let div_proyecto = document.createElement('div');
 // div_proyecto.setAttribute('class', 'col-lg-3 pb-4');
 
-talentos.forEach(talento => {
-  console.log("Talento", talento)
+talents.forEach(talent => {
+  console.log("Talento", talent);
+  generateCardForTalent(talent);
+})
 
+function generateCardForTalent(talent) {
   // Contenedor col
   let div_col = document.createElement('div');
   div_col.setAttribute('class', 'col-lg-3 pb-4');
@@ -295,7 +298,7 @@ talentos.forEach(talento => {
   div_card.setAttribute('class', 'card text-center font-weight-light border-white');
 
   let img_perfil = document.createElement('img');
-  img_perfil.setAttribute('src', talento.imagen);
+  img_perfil.setAttribute('src', talent.imagen);
   // img_perfil.setAttribute('src', 'assets/img/chef_armando.jpg')
   img_perfil.setAttribute('class', 'shadow-lg rounded');
   div_card.appendChild(img_perfil);
@@ -313,13 +316,13 @@ talentos.forEach(talento => {
   let h4_name = document.createElement('h4');
   div_card_info.appendChild(h4_name);
   h4_name.setAttribute('class', 'name');
-  h4_name.innerText = talento.nombre;
+  h4_name.innerText = talent.nombre;
 
   // p_profesion pertenece a div_card_info
   let p_profesion = document.createElement('p');
   div_card_info.appendChild(p_profesion);
   p_profesion.setAttribute('class', 'profesion');
-  p_profesion.innerText = talento.profesion;
+  p_profesion.innerText = talent.profesion;
 
   // ================================================
 
@@ -327,7 +330,7 @@ talentos.forEach(talento => {
   div_card_body.appendChild(ul_icons);
   ul_icons.setAttribute('class', 'icons list-style-none text-white text-decoration-none p-0')
 
-  talento.redes_sociales.forEach(rs => {
+  talent.redes_sociales.forEach(rs => {
     const li_cont = document.createElement('li');
     ul_icons.appendChild(li_cont);
     li_cont.setAttribute('class', 'd-inline');
@@ -342,13 +345,13 @@ talentos.forEach(talento => {
   const a_homepage = document.createElement('a');
   div_card_body.appendChild(a_homepage);
   a_homepage.setAttribute('class', 'btn btn-info my-3');
-  a_homepage.setAttribute('href', talento.home_page);
+  a_homepage.setAttribute('href', talent.home_page);
   a_homepage.innerText = 'Ver perfil';
   // let a_link = document.createElement('a');
-  // a_link.setAttribute("href", talento.link);
+  // a_link.setAttribute("href", talent.link);
   // // a_link.setAttribute("href", repo.html_url);
 
-  // a_link.innerText = talento.nombre;
+  // a_link.innerText = talent.nombre;
   // a_link.setAttribute('target', '_blank');
   // a_link.setAttribute('class', 'galeria-proyecto__link');
 
@@ -360,5 +363,5 @@ talentos.forEach(talento => {
 
   galeria.appendChild(div_col);
 
-});
+}
 

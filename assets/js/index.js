@@ -1,3 +1,4 @@
+
 $(document).ready(function() {
     //Smooth Scroll
     $('a').click(function(event) {
@@ -17,3 +18,4 @@ $(document).ready(function() {
         $('[data-toggle="tooltip"]').tooltip()
     })
 })
+

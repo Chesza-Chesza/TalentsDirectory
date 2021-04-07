@@ -4,13 +4,23 @@ const talentos = [
     nombre: 'Karl Heitmann',
     profesion: 'Full Stack',
     imagen: 'https://karlheitmann.github.io/assets/img/yo_terraza.jpg',
-    link: 'https://karlheitmann.github.io'
+    home_page: 'https://karlheitmann.github.io',
+    redes_sociales: [
+      {link: '#', class_iconos: 'fab fa-github-square fa-2x pl-1'},
+      {link: '#', class_iconos: 'fab fa-linkedin fa-2x pl-1'},
+      {link: '#', class_iconos: 'fab fa-facebook-square fa-2x pl-1'},
+    ]
   },
   {
     nombre: 'Rogelio Chanto',
     profesion: 'Full Stack / Asesor Finaciero',
     imagen: 'assets/img/chef_armando.jpg',
-    link: '#'
+    home_page: '#',
+    redes_sociales: [
+      {link: '#', class_iconos: 'fab fa-github-square fa-2x pl-1'},
+      {link: '#', class_iconos: 'fab fa-linkedin fa-2x pl-1'},
+      {link: '#', class_iconos: 'fab fa-facebook-square fa-2x pl-1'},
+    ]
   },
 ]
 
@@ -57,6 +67,24 @@ talentos.forEach(talento => {
   div_card_info.appendChild(p_profesion);
   p_profesion.setAttribute('class', 'profesion');
   p_profesion.innerText = talento.profesion;
+
+  // ================================================
+
+  let ul_icons = document.createElement('ul');
+  div_card_body.appendChild(ul_icons);
+  ul_icons.setAttribute('class', 'icons list-style-none text-white text-decoration-none p-0')
+
+  talento.redes_sociales.forEach(rs => {
+    const li_cont = document.createElement('li');
+    ul_icons.appendChild(li_cont);
+    li_cont.setAttribute('class', 'd-inline');
+    const a_link = document.createElement('a');
+    a_link.setAttribute('href', rs.link);
+    li_cont.appendChild(a_link);
+    const i_icono = document.createElement('i');
+    a_link.appendChild(i_icono);
+    i_icono.setAttribute('class', rs.class_iconos);
+  })
 
   // let a_link = document.createElement('a');
   // a_link.setAttribute("href", talento.link);

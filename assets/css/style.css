@@ -38,6 +38,7 @@ i {
 
 .card-body {
     transform: translate3d(20px, -30px, 0px);
+    height: 15rem
 }
 
 footer p {

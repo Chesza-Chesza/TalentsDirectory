@@ -1,16 +1,5 @@
 const talents = [
   {
-    nombre: 'Karl Heitmann',
-    profesion: 'Full Stack',
-    imagen: 'https://karlheitmann.github.io/assets/img/yo_terraza.jpg',
-    home_page: 'https://karlheitmann.github.io',
-    redes_sociales: [
-      {link: '#', class_iconos: 'fab fa-github-square fa-2x pl-1'},
-      {link: '#', class_iconos: 'fab fa-linkedin fa-2x pl-1'},
-      {link: '#', class_iconos: 'fab fa-facebook-square fa-2x pl-1'},
-    ]
-  },
-  {
     nombre: 'Rogelio Chanto',
     profesion: 'Full Stack / Asesor Finaciero',
     imagen: 'assets/img/chef_armando.jpg',

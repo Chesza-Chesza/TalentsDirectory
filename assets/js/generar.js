@@ -7,7 +7,10 @@ let galeria = document.getElementById('los-talentos');
 
 talents.forEach(talent => {
   console.log("Talento", talent);
-  generateCardForTalent(talent);
+  const card = generateCardForTalent(talent);
+
+  galeria.appendChild(card);
+
 })
 
 function generateCardForTalent(talent) {
@@ -53,6 +56,7 @@ function generateCardForTalent(talent) {
   div_card_body.appendChild(ul_icons);
   ul_icons.setAttribute('class', 'icons list-style-none text-white text-decoration-none p-0')
 
+  // Recorre el arreglo con las redes sociales, y agrega un li y un a por cada uno de los perfiles en RRSS que tenga.
   talent.redes_sociales.forEach(rs => {
     const li_cont = document.createElement('li');
     ul_icons.appendChild(li_cont);
@@ -70,21 +74,9 @@ function generateCardForTalent(talent) {
   a_homepage.setAttribute('class', 'btn btn-info my-3');
   a_homepage.setAttribute('href', talent.home_page);
   a_homepage.innerText = 'Ver perfil';
-  // let a_link = document.createElement('a');
-  // a_link.setAttribute("href", talent.link);
-  // // a_link.setAttribute("href", repo.html_url);
-
-  // a_link.innerText = talent.nombre;
-  // a_link.setAttribute('target', '_blank');
-  // a_link.setAttribute('class', 'galeria-proyecto__link');
 
 
-  // div_card.appendChild(a_link);
-  // div_card.appendChild(p_descripcion);
-
-  // div_col.appendChild(div_card);
-
-  galeria.appendChild(div_col);
+  return div_col;
 
 }
 

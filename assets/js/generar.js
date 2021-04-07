@@ -86,6 +86,11 @@ talentos.forEach(talento => {
     i_icono.setAttribute('class', rs.class_iconos);
   })
 
+  const a_homepage = document.createElement('a');
+  div_card_body.appendChild(a_homepage);
+  a_homepage.setAttribute('class', 'btn btn-info my-3');
+  a_homepage.setAttribute('href', talento.home_page);
+  a_homepage.innerText = 'Ver perfil';
   // let a_link = document.createElement('a');
   // a_link.setAttribute("href", talento.link);
   // // a_link.setAttribute("href", repo.html_url);

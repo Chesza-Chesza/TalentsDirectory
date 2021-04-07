@@ -2,9 +2,15 @@ console.log("GENERANDO...");
 const talentos = [
   {
     nombre: 'Karl Heitmann',
-    descripcion: 'Hola',
+    descripcion: 'Full Stack',
     imagen: 'https://karlheitmann.github.io/assets/img/yo_terraza.jpg',
     link: 'https://karlheitmann.github.io'
+  },
+  {
+    nombre: 'Rogelio Chanto',
+    descripcion: 'Full Stack / Asesor Finaciero',
+    imagen: 'assets/img/chef_armando.jpg',
+    link: '#'
   },
 ]
 
@@ -14,6 +20,7 @@ let galeria = document.getElementById('los-talentos');
 // div_proyecto.setAttribute('class', 'col-lg-3 pb-4');
 
 talentos.forEach(talento => {
+  console.log("Talento", talento)
 
   let div_col = document.createElement('div');
   div_col.setAttribute('class', 'col-lg-3 pb-4');

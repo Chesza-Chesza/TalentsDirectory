@@ -11,7 +11,7 @@ const talents = [
     ]
   },
   {
-    nombre: 'Jacqueline Picado',
+    nombre: 'Jaqueline Picado',
     profesion: 'Full Stack',
     imagen: 'assets/img/jaqueline.png',
     home_page: '#',
@@ -77,19 +77,19 @@ const talents = [
     ]
   },
   {
-    nombre: 'Alonso Viales',
-    profesion: 'Full Stack',
+    nombre: 'Alonso Viales A.',
+    profesion: 'Salud Ocupacional',
     imagen: 'assets/img/alonso.jpg',
-    home_page: '#',
+    home_page: 'https://aviales.github.io/Curriculum-Vitae/.',
     redes_sociales: [
-      {link: '#', class_iconos: 'fab fa-github-square fa-2x pl-1'},
+      {link: 'https://github.com/aviales', class_iconos: 'fab fa-github-square fa-2x pl-1'},
       {link: '#', class_iconos: 'fab fa-linkedin fa-2x pl-1'},
       {link: '#', class_iconos: 'fab fa-facebook-square fa-2x pl-1'},
     ]
   },
   {
     nombre: 'Mauricio Badilla',
-    profesion: 'Full Stack',
+    profesion: 'Full Stack, Agente',
     imagen: 'assets/img/foto.png',
     home_page: '#',
     redes_sociales: [
@@ -111,8 +111,8 @@ const talents = [
   },
   {
     nombre: 'Cynthia Salazar',
-    profesion: 'Full Stack',
-    imagen: 'assets/img/cynthia.png',
+    profesion: 'Full Stack/Finance',
+    imagen: 'assets/img/cynthia1.png',
     home_page: '#',
     redes_sociales: [
       {link: '#', class_iconos: 'fab fa-github-square fa-2x pl-1'},

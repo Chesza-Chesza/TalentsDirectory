@@ -68,12 +68,11 @@ const talents = [
   {
     nombre: 'Elian Rojas',
     profesion: 'Full Stack',
-    imagen: 'assets/img/foto.png',
+    imagen: 'assets/img/elian.jpg',
     home_page: '#',
     redes_sociales: [
-      {link: '#', class_iconos: 'fab fa-github-square fa-2x pl-1'},
-      {link: '#', class_iconos: 'fab fa-linkedin fa-2x pl-1'},
-      {link: '#', class_iconos: 'fab fa-facebook-square fa-2x pl-1'},
+      {link: 'https://github.com/Elian1978', class_iconos: 'fab fa-github-square fa-2x pl-1'},
+      {link: 'https://www.linkedin.com/in/elian-rojas/', class_iconos: 'fab fa-linkedin fa-2x pl-1'},
     ]
   },
   {

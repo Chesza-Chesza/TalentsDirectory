@@ -148,9 +148,8 @@ const talents = [
     imagen: 'assets/img/gaby.jpg',
     home_page: '#',
     redes_sociales: [
-      {link: '#', class_iconos: 'fab fa-github-square fa-2x pl-1'},
-      {link: '#', class_iconos: 'fab fa-linkedin fa-2x pl-1'},
-      {link: '#', class_iconos: 'fab fa-facebook-square fa-2x pl-1'},
+      {link: 'https://gabriela-oss.github.io/', class_iconos: 'fab fa-github-square fa-2x pl-1'},
+      {link: 'https://www.linkedin.com/in/gabrielasol%C3%ADschavarr%C3%ADa/', class_iconos: 'fab fa-linkedin fa-2x pl-1'},
     ]
   },
   {

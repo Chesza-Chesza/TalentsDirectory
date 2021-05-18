@@ -63,6 +63,7 @@ function generateCardForTalent(talent) {
     li_cont.setAttribute('class', 'd-inline');
     const a_link = document.createElement('a');
     a_link.setAttribute('href', rs.link);
+    a_link.setAttribute('target', '_blank');
     li_cont.appendChild(a_link);
     const i_icono = document.createElement('i');
     a_link.appendChild(i_icono);
@@ -73,6 +74,7 @@ function generateCardForTalent(talent) {
   div_card_body.appendChild(a_homepage);
   a_homepage.setAttribute('class', 'btn btn-info my-3');
   a_homepage.setAttribute('href', talent.home_page);
+  a_homepage.setAttribute('target', '_blank');
   a_homepage.innerText = 'Ver perfil';
 
 

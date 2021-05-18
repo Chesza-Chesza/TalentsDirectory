@@ -88,13 +88,13 @@ const talents = [
   },
   {
     nombre: 'Mauricio Badilla',
-    profesion: 'Full Stack, Agente',
-    imagen: 'assets/img/foto.png',
-    home_page: '#',
+    profesion: 'Full Stack, Agente Ventas',
+    imagen: 'assets/img/mbadilla86.JPEG',
+    home_page: 'https://www.linkedin.com/in/mbadilla86/',
     redes_sociales: [
-      {link: '#', class_iconos: 'fab fa-github-square fa-2x pl-1'},
-      {link: '#', class_iconos: 'fab fa-linkedin fa-2x pl-1'},
-      {link: '#', class_iconos: 'fab fa-facebook-square fa-2x pl-1'},
+      {link: 'https://github.com/mbadilla86', class_iconos: 'fab fa-github-square fa-2x pl-1'},
+      {link: 'https://www.linkedin.com/in/mbadilla86/', class_iconos: 'fab fa-linkedin fa-2x pl-1'},
+      ,
     ]
   },
   {

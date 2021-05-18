@@ -99,17 +99,6 @@ const talents = [
     ]
   },
   {
-    nombre: 'Azalea Acuña',
-    profesion: 'Senior Designer',
-    imagen: 'assets/img/azalea.jpg',
-    home_page: '#',
-    redes_sociales: [
-      {link: '#', class_iconos: 'fab fa-github-square fa-2x pl-1'},
-      {link: '#', class_iconos: 'fab fa-linkedin fa-2x pl-1'},
-      {link: '#', class_iconos: 'fab fa-facebook-square fa-2x pl-1'},
-    ]
-  },
-  {
     nombre: 'Cynthia Salazar',
     profesion: 'Full Stack/Finance',
     imagen: 'assets/img/cynthia1.png',

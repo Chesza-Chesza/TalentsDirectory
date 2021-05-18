@@ -58,11 +58,10 @@ const talents = [
     nombre: 'Oscar Vega',
     profesion: 'Full Stack',
     imagen: 'assets/img/oscar.jpg',
-    home_page: '#',
+    home_page: 'https://oscarvegav.github.io/',
     redes_sociales: [
-      {link: '#', class_iconos: 'fab fa-github-square fa-2x pl-1'},
-      {link: '#', class_iconos: 'fab fa-linkedin fa-2x pl-1'},
-      {link: '#', class_iconos: 'fab fa-facebook-square fa-2x pl-1'},
+      {link: 'https://github.com/OscarVegaV', class_iconos: 'fab fa-github-square fa-2x pl-1'},
+      {link: 'https://www.linkedin.com/in/oscar-vega-v/', class_iconos: 'fab fa-linkedin fa-2x pl-1'},
     ]
   },
   {

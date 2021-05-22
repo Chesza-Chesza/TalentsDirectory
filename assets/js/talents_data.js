@@ -33,12 +33,13 @@ const talents = [{
     },
     {
         nombre: 'Shirley Alvarado',
-        profesion: 'Full Stack / Web Designer',
+        profesion: 'Full Stack / Designer',
         imagen: 'assets/img/shirley.jpg',
-        home_page: 'https://github.com/Chesza-Chesza',
+        home_page: '#',
         redes_sociales: [
             { link: '#', class_iconos: 'fab fa-github-square fa-2x pl-1' },
-            { link: 'https://www.linkedin.com/in/shirley-alvarado-soto', class_iconos: 'fab fa-linkedin fa-2x pl-1' },
+            { link: '#', class_iconos: 'fab fa-linkedin fa-2x pl-1' },
+            { link: '#', class_iconos: 'fab fa-facebook-square fa-2x pl-1' },
         ]
     },
     {
@@ -66,12 +67,11 @@ const talents = [{
     {
         nombre: 'Elian Rojas',
         profesion: 'Full Stack',
-        imagen: 'assets/img/foto.png',
+        imagen: 'assets/img/elian.jpg',
         home_page: '#',
         redes_sociales: [
-            { link: '#', class_iconos: 'fab fa-github-square fa-2x pl-1' },
-            { link: '#', class_iconos: 'fab fa-linkedin fa-2x pl-1' },
-            { link: '#', class_iconos: 'fab fa-facebook-square fa-2x pl-1' },
+            { link: 'https://github.com/Elian1978', class_iconos: 'fab fa-github-square fa-2x pl-1' },
+            { link: 'https://www.linkedin.com/in/elian-rojas/', class_iconos: 'fab fa-linkedin fa-2x pl-1' },
         ]
     },
     {
@@ -87,24 +87,12 @@ const talents = [{
     },
     {
         nombre: 'Mauricio Badilla',
-        profesion: 'Full Stack, Agente',
-        imagen: 'assets/img/foto.png',
-        home_page: '#',
+        profesion: 'Full Stack, Agente Ventas',
+        imagen: 'assets/img/mbadilla86.JPEG',
+        home_page: 'https://www.linkedin.com/in/mbadilla86/',
         redes_sociales: [
-            { link: '#', class_iconos: 'fab fa-github-square fa-2x pl-1' },
-            { link: '#', class_iconos: 'fab fa-linkedin fa-2x pl-1' },
-            { link: '#', class_iconos: 'fab fa-facebook-square fa-2x pl-1' },
-        ]
-    },
-    {
-        nombre: 'Azalea Acuña',
-        profesion: 'Senior Designer',
-        imagen: 'assets/img/azalea.jpg',
-        home_page: '#',
-        redes_sociales: [
-            { link: '#', class_iconos: 'fab fa-github-square fa-2x pl-1' },
-            { link: '#', class_iconos: 'fab fa-linkedin fa-2x pl-1' },
-            { link: '#', class_iconos: 'fab fa-facebook-square fa-2x pl-1' },
+            { link: 'https://github.com/mbadilla86', class_iconos: 'fab fa-github-square fa-2x pl-1' },
+            { link: 'https://www.linkedin.com/in/mbadilla86/', class_iconos: 'fab fa-linkedin fa-2x pl-1' }, ,
         ]
     },
     {
@@ -146,9 +134,8 @@ const talents = [{
         imagen: 'assets/img/gaby.jpg',
         home_page: '#',
         redes_sociales: [
-            { link: '#', class_iconos: 'fab fa-github-square fa-2x pl-1' },
-            { link: '#', class_iconos: 'fab fa-linkedin fa-2x pl-1' },
-            { link: '#', class_iconos: 'fab fa-facebook-square fa-2x pl-1' },
+            { link: 'https://gabriela-oss.github.io/', class_iconos: 'fab fa-github-square fa-2x pl-1' },
+            { link: 'https://www.linkedin.com/in/gabrielasol%C3%ADschavarr%C3%ADa/', class_iconos: 'fab fa-linkedin fa-2x pl-1' },
         ]
     },
     {

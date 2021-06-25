@@ -76,13 +76,12 @@ const talents = [{
     },
     {
         nombre: 'Alonso Viales A.',
-        profesion: 'Salud Ocupacional',
+        profesion: 'Full Stack Developer',
         imagen: 'assets/img/alonso.jpg',
         home_page: 'https://aviales.github.io/Curriculum-Vitae/.',
         redes_sociales: [
             { link: 'https://github.com/aviales', class_iconos: 'fab fa-github-square fa-2x pl-1' },
-            { link: '#', class_iconos: 'fab fa-linkedin fa-2x pl-1' },
-            { link: '#', class_iconos: 'fab fa-facebook-square fa-2x pl-1' },
+            { link: 'https://www.linkedin.com/in/alonso-viales-arrieta-524183201/', class_iconos: 'fab fa-linkedin fa-2x pl-1' },
         ]
     },
     {
